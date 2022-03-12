@@ -12,7 +12,7 @@ psutil>=5.7.3,<6.0.0
 py>=1.5.0
 py-solc-ast>=1.2.6,<2.0.0
 py-solc-x>=1.0.1,<2.0.0
-pygments==2.6.1
+pygments==2.7.4
 pygments_lexer_solidity==0.5.1
 pytest==6.0.1
 pytest-xdist==1.34.0
@@ -25,3 +25,5 @@ tqdm==4.53.0
 vvm>=0.1.0,<0.2.0
 vyper>=0.2.8,<0.3.0
 web3==5.11.1
+eth-keyfile>=0.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
+websockets>=10.0 # not directly required, pinned by Snyk to avoid a vulnerability
