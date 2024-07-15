@@ -25,3 +25,4 @@ tqdm==4.53.0
 vvm>=0.1.0,<0.2.0
 vyper>=0.2.8,<0.3.0
 web3==5.11.1
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
