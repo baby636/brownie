@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.13.5
 
 # Set up code directory
 RUN mkdir -p /usr/src/app
